@@ -1,0 +1,11 @@
+Speech Emotion Recognition using the TESS dataset — extracted MFCC features and compared LSTM, CNN, and GMM models; selected the best model based on accuracy and standard evaluation.
+Technical Skills Demonstrated
+Audio ML: MFCC extraction, waveplots & spectrograms (librosa)
+Supervised ML: LSTM, CNN (1D Conv), GMM comparison
+Data prep: label parsing from filenames, LabelEncoder, StandardScaler
+Model training: train/validation split, early stopping callback, history tracking
+Evaluation: accuracy, confusion matrix, classification report
+Python stack: TensorFlow/Keras, scikit-learn, librosa, pandas, NumPy, matplotlib/seaborn
+Dataset handling: KaggleHub download & structured file walking
+
+Currently developing a Streamlit-based GUI to make the Speech Emotion Recognition model interactive and user-friendly
